@@ -3,7 +3,7 @@ import requests
 from pprint import pprint
 
 sheety_endpoint = "https://api.sheety.co/9d2530d38eefc0961d1c36126922b585/flightDeals/prices"
-sheety_header = {"Authorization": "Bearer jkdnchsoqjsncbvr233484hdncms"}
+sheety_header = {"Authorization": "Bearer"}
 
 class DataManager:
 
