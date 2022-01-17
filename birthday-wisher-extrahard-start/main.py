@@ -46,7 +46,7 @@ while count < birthday_row.name.count():
             letters = [letter_1_data, letter_2_data, letter_3_data]
             letter_to_send = random.choice(letters)
             my_email = "sripy2022@gmail.com"
-            password = "Sri@2022"
+            password = ""
 
             # with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
             #     connection.starttls()
