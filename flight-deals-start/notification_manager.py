@@ -6,7 +6,7 @@ class NotificationManager:
 
     def send_email(self, email_message):
         my_email = "sripy2022@gmail.com"
-        password = "Sri@2022"
+        password = ""
 
         with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
             connection.starttls()
