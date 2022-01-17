@@ -2,7 +2,7 @@
 import requests
 from flight_data import FlightData
 
-API_KEY = "H7ZG0KZpJ8iKyg1H-KjRuMQJLB4fxyie"
+API_KEY = ""
 base_endpoint = "https://tequila-api.kiwi.com"
 iatacode_endpoint = "https://tequila-api.kiwi.com/locations/query"
 header = {
